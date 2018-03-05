@@ -5,13 +5,27 @@
 #start_chat_but, .uppermenu, #buyers_ad, #flashcontent, .yellow_but,
 .bottombar, .byline, .top-links { visibility: hidden !important; display: none !important;}
 </style>
-<script>function changeNavigation(id) {document.getElementById('texttext').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation(id) {document.getElementById('mantext').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('magetext').innerHTML=document.getElementById(id).innerHTML}</script>
 <link href="https://fonts.googleapis.com/css?family=Cinzel|Old+Standard+TT" rel="stylesheet">
 <script language=javascript>document.title=("Alive Again.")</script>
 <style type = "text/css">
 ::-webkit-scrollbar {background-color: none; height:5px; width:5px; border:none}
 ::-webkit-scrollbar-thumb:vertical {background-color:#F7F4C8); border: 2px solid #F7F4C8; height:50px}
 
+.tabs {
+display: block;
+height: 100%;
+width: 100%; 
+border-radius: 100%;
+}
+
+.tabs2 {
+display: block;
+height: 100%;
+width: 100%;
+border-radius: 100%; 
+}
 
 #container {
 position: absolute;
@@ -49,7 +63,7 @@ top: 25%;
 left: 41%; 
 Height: 50%; 
 Width: 18%; 
-background-image: url("https://i.imgur.com/IW529Sf.png");
+background-image: url("https://i.imgur.com/IrFEUq6.png");
 background-size: 100% 100%; 
 }
 
@@ -59,7 +73,7 @@ top: 13%;
 left: 39.5%;
 Height: 8%;
 width: 10%;
-background: url("https://i.imgur.com/Im76LBW.png");
+background: url("https://i.imgur.com/DjHbMhq.png");
 background-size: 100% 100%;
 }
 
@@ -69,7 +83,7 @@ top: 13%;
 left: 50.5%;
 Height: 8%;
 width: 10%;
-background: url("https://i.imgur.com/ZUgx1CS.png	");
+background: url("https://i.imgur.com/CIIilax.png");
 background-size: 100% 100%;
 }
 
@@ -286,13 +300,22 @@ display: none;
 <div id="horizontal"></div>
 <div id="centralpic"></div>
 <div id="picl"></div><div id="pic2"></div>
-<div id="buttonl1"></div><div id="buttonl2"></div><div id="buttonl3"></div>
-<div id="buttonr1"></div><div id="buttonr2"></div><div id="buttonr3"></div>
+<div id="buttonl1"><span class="tabs" onClick="changeNavigation ('mantext1')"></span></div>
+<div id="buttonl2"><span class="tabs" onClick="changeNavigation ('mantext2')"></span></div>
+<div id="buttonl3"><span class="tabs" onClick="changeNavigation ('mantext3')"></span></div>
+<div id="buttonr1"><span class="tabs2" onClick="changeNavigation1 ('magetext1')"></span></div>
+<div id="buttonr2"><span class="tabs2" onClick="changeNavigation1 ('magetext2')"></span></div>
+<div id="buttonr3"><span class="tabs2" onClick="changeNavigation1 ('magetext3')"></span></div>
 <div id="titleL"></div><div id="titleR"></div><div id="rankbrace">Paige</div>
 <div id="boxL"></div><div id="BoxR"></div>
 <div id="theman">The Man</div>
 <div id="themage">The Mage</div>
 </div></div></div>
-<div id="magetext"><h1>The Following Character...</h1>Is for use in the “Vetiver Magic Academy” group roleplay. Ryan's story --as well as his powers-- are tailored to fit into it’s lore, but he can still be used in other roleplays depending on their content. For more information about Vetiver, visit their site by clicking here: <a href="http://vetiver.weebly.com">!!!!!!</a> To progress through the profile, click on the spinning images around the center of the sheet; the ones on the left will direct to information about Ryan himself, whereas those on the right will provide a list of his various magical abilities.<br><h1>List Of Universal Spells</h1><h2>Mana Weave</h2><h1><img style="width:50%;height:50%;" src="http://static.wixstatic.com/media/07f74f_71c8cf85da4e486a92d1ed0a491eb573.gif"></h1>The ability to channel mana into the palms of ones hands and their mediums. This is basic mana control and the first spell every mage should learn.<h2>Mana Spark</h2><h1><img style="width:50%;height:50%;" src="http://static.wixstatic.com/media/07f74f_5b10b8943bb44a69b71412f84382c5c1.gif"></h1>A basic projectile attack created out of the users mana. This is the first offensive spell that a mage will learn.</div>
-<div id="mantext"><h3>Ryan O'Connor...</h3>Is for use in the “Vetiver Magic Academy” group roleplay. Ryan's story --as well as his powers-- are tailored to fit into it’s lore, but he can still be used in other roleplays depending on their content. For more information about Vetiver, visit their site by clicking here: <a href="http://vetiver.weebly.com">!!!!!!</a> To progress through the profile, click on the spinning images around the center of the sheet; the ones on the left will direct to information about Ryan himself, whereas those on the right will provide a list of his various magical abilities.<br><h1><img style= "width:50%;height:50%;" src="https://i.imgur.com/rVKJfY6.jpg"></h1>
-  <iframe width="0" height="0" src="https://www.youtube.com/embed/1lwDO1HUL1M?&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div id="magetext"><h1>List Of Universal Spells</h1><h2>Mana Weave</h2><h1><img style="width:50%;height:50%;" src="http://static.wixstatic.com/media/07f74f_71c8cf85da4e486a92d1ed0a491eb573.gif"></h1>The ability to channel mana into the palms of ones hands and their mediums. This is basic mana control and the first spell every mage should learn.<h2>Mana Spark</h2><h1><img style="width:50%;height:50%;" src="http://static.wixstatic.com/media/07f74f_5b10b8943bb44a69b71412f84382c5c1.gif"></h1>A basic projectile attack created out of the users mana. This is the first offensive spell that a mage will learn.</div>
+<div id="mantext"><h3>The Following Character...</h3>Is for use in the “Vetiver Magic Academy” group roleplay. Ryan's story --as well as his powers-- are tailored to fit into it’s lore, but he can still be used in other roleplays depending on their content. For more information about Vetiver, visit their site by clicking here: <a href="http://vetiver.weebly.com">!!!!!!</a> To progress through the profile, click on the spinning images around the center of the sheet; the ones on the left will direct to information about Ryan himself, whereas those on the right will provide a list of his various magical abilities.<br><h1><img style= "width:50%;height:50%;" src="https://i.imgur.com/rVKJfY6.jpg"></h1><h3>Ryan O'Connor.</h3></div>
+<div id="mantext1"><h3>Character Information</h3><u>Full Name:</u> Ryan O’Connor<br><br><img style="width:50%;height:50%;" align="right" src="https://i.imgur.com/rPvbG62.png"><u>D.O.B:</u> May 3rd, 1996<br><br><u>Height:</u> 6’0<br><br><u>Gender:</u> Male<br><br><u>Sexual Orientation:</u> Heterosexual<br><br><u>Eye Color:</u> O’Connor Emerald<br><br><u>Hair Color:</u> Jet Black<br><br><u>Dexterity:</u> Left hand dominant<br><h3>Appearance</h3><h1><img style="width:30%;height:30%;" src="https://i.imgur.com/Iwlw9eo.jpg">                <img style="width:30%;height:30%;" src="https://i.imgur.com/u4RDvy8.png"></h1>At face value, the appearance of Ryan O’Connor is not atypical by many means. Coming in at just about six foot tall, he possesses a relatively muscular body type, the byproduct of his few years as a battle mage within the Vetiver populace. His long and dark black hair is often styled to the side, to prevent obscuring vision from his uniquely bright green eyes. This is perhaps his most notable feature, as they are seemingly otherworldly and unnatural in their lustre. His pale -- almost porcelain -- skin, and deeply angular features are known to accentuate this trait; one may even consider his overall facial structure to be a regal archetype, more refined in attractiveness than ruggedly handsome. This non congruence with the rest of his soldier-like body often allows him to hide his true physique under casual attire; Ryan is known for wearing basic clothing that one would expect of someone his age, assuming the culture is also primarily from the non magical world. Jeans and Chinos are often found around his legs, sometimes replaced by more rugged leather protection during anticipated battles. His upper body is often coated in nothing more than a basic T-shirt or button up, layered with a heavy jacket when the situation calls for it. Most recently -- prior to his resurrection -- he has been seen wearing a pair of sensible, rectangular and black rimmed glasses; questions of this development would be responded with by stating that his eyesight has started to go, notably worsening after participating in the first war against the cultists.<h3>Personality</h3>It must be noted that the personality of Ryan O’Connor has changed dramatically; this is specifically due to the traumatic experiences that lead to the death of his girlfriend -- Nella Voltolini -- and himself. Despite their resurrection, this event acts as a monument to the shift in persona that Ryan’s psyche has overtaken (in other words, he literally WAS dead, and it IS zero now). The core fundamentals of his personality have remained intact; Ryan is generally a good person, who tends to develop empathy for others and open his mind to their plights after rational conversation. A strong urge to protect others has always guided his actions as a mage, traditionally leading him to develop his magic in a less outwardly powerful, and more utility based approach.<br><br>Since his loss at the hands of the Exile Hunters, his philosophy to protection has dramatically shifted; Ryan feels as if he was too weak to save anyone, and his method of defending others was flawed. Inspired by those such as Alkra and Wednesday -- whom he feels superiorly inadequate to -- he has decided to ditch the notions of support, and to train himself to become as powerful as possible. Even with this brash outlook towards violence, Ryan still struggles with the dangers of magic, feeling as if it is entirely unnatural for someone of his basic origin to have access to such destruction. Upon learning of his true heritage however, this part of his mentality has come into question.<br><br>Despite a thick and bitter layer of regret for what occured during his time as an Exile, Ryan is still the same man at heart. He remains a voice of reason, willing to discuss and hash matters out via negotiating rather than straightly devolving to combat; his unwillingness to do so has been completely eradicated, however. When distracted from his doubts and worries, the goofily charismatic and often comical aura he radiates is known to shine, much easier to coax out of him when around his older friends and family. Although he is typically reserved or easygoing in nature, anger is still a huge possible affector of his choices in social situations; he is not easily spurred to irrational rage, but it is extremely hard for him to regress from this state upon being pushed into it.<br><br><br><h1><img src="https://i.imgur.com/u6rP3L9.png"></h1></div>
+<div id="mantext2"><h3>History</h3>As this character has just returned to the Vetiver RP community, his new story is still under development. A glimpse of his past (prior to death) will be available once there has been enough progression in his returned storyline to merit an overview of this new chapter of his story. Until then, this section will be left blank. If you truly wish to read about his life prior to vetiver, you may check out his old profile, located on the “Guitarist” account.</div>
+<div id="mantext3"><h3>Notable Associations</h3>This section will outline a list of various NPC and PC characters that have affected Ryan’s life since first joining Vetiver Academy. Currently, this will be left blank, as the layout demands various information be presented in RP before an entry is created. As Ryan roleplays with various characters more often, this section will be officially opened and able to grow freely. It is very likely I will forget to add certain characters which are important to Ryan, so if you feel as if you should be on here, feel free to PM me and discuss it.</div>
+<div id="magetext1"><h1>Conjuration</h3>“Allows you to summon any range of objects to your disposal. These Summonings are imbued with special properties or given specific abilities. Conjurers may learn to animate their summonings telekinetically, as well as place certain rules or restrictions upon their objects. Such mages may be able to access the capabilities of other trees in a limited capacity.”<br>-Vetiver Description<br><h1><img style="height:50%;width:30%;" src="https://i.imgur.com/SmwRYA5.gif"></h1><u>Bass Drum Of Death:</u> Ryan conjures a small bass drum with a diameter no larger than a foot, positioned directly above one of his shoulders. A metallic kick pedal is connected behind the drum, angled to attach itself against the casters arm like a piece of armor; the instrument itself remains at around the same altitude as the users head. The drum can be moved and rotated within its set area via mental command, allowing Ryan to aim the objects face towards different areas in front of him. By expending extra mana into the conjuration after it’s been summoned, Ryan may fire a concentrated burst of magic from the drums face, which extends to a maximum range of 30 feet. These blasts of energy are about half the size of the drum itself (six inch diameter orbs) which can be fired by tensing a muscle in the arm, making his firing speed slow to moderate until upgrade. Upon contact with an object, they trigger an extremely small and controlled explosion, covering an area equal to the size of the projectile in damage that can destroy up to (??????) and deal physically painful (yet not lethal) blows to unarmored enemies.<br><br><u>Reverb Rupture:</u> Ryan weaves mana into either of his hands, creating a tangible link of magic which extends the space between them; this means the spell itself cannot be any wider than Ryan’s arm span, and will suffer in durability if used at that extent. Upon creating the link, a large number of guitar strings begin to conjure between the two points of contact, their vibrational energy transforming into magical interference in a similar way it converts to electrical inputs in an actual guitar. This interference manifests itself as a semi-visible (distorted air, will be easy to pick out even without sensory) wall of energy which can defend against physical and energy based attacks equal to his rank or below scaling (? if that’s allowed) to mage. The wall only works at full strength when held at a width equal to the casters shoulders, extending it farther will reduce its effective rating by a singular rank.<br><br><u>Grabby Hand:</u> Ryan Summons a strange, sort of ethereal glove that covers his hand, with a magical tether attached. Ryan can shoot this glove off of his hand to reach for an object/person a max distance of (15) feet away; and can either haul the object towards him or pull himself towards the object, akin to a grappling hook.</div> 
+<div id="magetext2"><h1>Secondary Tree</h1>As Ryan is currently under the rank of Expert Mage, he does not possess a secondary tree. More information will be presented here in the future as he becomes a stronger mage once again. </div>
+<div id="magetext3"><h1>Tertiary Tree</h1>As Ryan is currently under the rank of Auror, he does not possess a tertiary tree. More information will be presented here in the future as he becomes a stronger mage once again. </div>
